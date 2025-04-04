@@ -1,0 +1,25 @@
+{
+    "nodes": [
+      { "id": 0, "x": 100, "y": 300, "is_parking": false },  
+      { "id": 1, "x": 500, "y": 100, "is_parking": false },   
+      { "id": 2, "x": 900, "y": 300, "is_parking": true },   
+      { "id": 3, "x": 200, "y": 250, "is_parking": false },  
+      { "id": 4, "x": 300, "y": 250, "is_parking": true },   
+      { "id": 5, "x": 400, "y": 250, "is_parking": false },   
+      { "id": 6, "x": 600, "y": 250, "is_parking": true },   
+      { "id": 7, "x": 700, "y": 250, "is_parking": true }   
+    ],
+    "edges": [
+      { "from": 0, "to": 3, "weight": 100 },
+      { "from": 3, "to": 4, "weight": 100 },
+      { "from": 4, "to": 5, "weight": 100 },
+      { "from": 5, "to": 6, "weight": 100 },
+      { "from": 6, "to": 7, "weight": 100 },
+      { "from": 7, "to": 2, "weight": 100 },
+      { "from": 4, "to": 1, "weight": 220 },
+      { "from": 6, "to": 2, "weight": 150 },
+      { "from": 0, "to": 4, "weight": 180 },
+      { "from": 3, "to": 1, "weight": 250 }
+    ]
+  }
+  
